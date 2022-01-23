@@ -9,6 +9,9 @@ antigen bundle autojump-zsh
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle lukechilds/zsh-nvm
 
+# Load pyenv bundle
+antigen bundle mattberther/zsh-pyenv
+
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
 
