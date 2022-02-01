@@ -18,6 +18,9 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 # Load the theme.
 antigen theme romkatv/powerlevel10k
 
+# Load zsh eval cache
+antigen bundle mroth/evalcache
+
 # Tell Antigen that you're done.
 antigen apply
 
