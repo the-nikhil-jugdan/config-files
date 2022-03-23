@@ -1,0 +1,12 @@
+Requires=docker.service
+After=docker.service
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/docker start -a postgres-dev-server
+ExecStop=/usr/bin/docker stop postgres-dev-server
+ 
+[Install]
+WantedBy=default.target
+
+# Reffered https://stackoverflow.com/a/39493500
